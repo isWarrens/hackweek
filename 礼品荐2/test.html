@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="touchscroll.js"></script>
+</head>
+<style>
+  *{
+    margin: 0px;
+  }
+  .scroll {
+    height: 200px;
+    width: 300px;
+   margin:220px;
+    background-color: red;
+  }
+</style>
+<body>
+<div class="scroll">
+
+</div>
+<script>
+  var a=document.getElementsByClassName("scroll")[0];
+  a.onclick=function () {
+    a.style.backgroundColor="blue";
+  }
+</script>
+</body>
+</html>
