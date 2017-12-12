@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  .ra{
+    height: 100px;
+    width: 100px;
+    background-color: #333333;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  .rad{
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border-radius: 15px;
+    margin: 0;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+  }
+  #a{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+  }
+  .b{
+    height: 200px;
+    width: 300px;
+    display: inline;
+    margin: 0;
+  }
+  .c{
+    width: 100px;
+    margin: 0;
+  }
+</style>
+<body>
+<div id="a">
+  <div class="ra">
+
+  </div>
+    <div class="c">
+      <div class="rad"></div>
+      <div class="rad"></div>
+    </div>
+</div>
+</body>
+<script>
+  localStorage.setItem("ta","hahh");
+  alert(localStorage.getItem("ta"));
+
+</script>
+</html>
